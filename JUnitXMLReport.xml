@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="11" time="0.090" timestamp="2023-10-27T14:44:01.443727" hostname="LAPTOP-J07U70K3"><testcase classname="samplepackage.test_assert" name="test_sample_one" time="0.001" /><testcase classname="samplepackage.test_assert" name="test_sample_two" time="0.000" /><testcase classname="samplepackage.test_assert" name="test_sample_three" time="0.000" /><testcase classname="samplepackage.test_samplefile" name="test_sample_one" time="0.001" /><testcase classname="samplepackage.test_samplefile" name="test_sample_two" time="0.001" /><testcase classname="samplepackage.test_samplefile" name="test_sample_three" time="0.001" /><testcase classname="samplepackage.test_samplefile2" name="test_sample_one" time="0.001" /><testcase classname="samplepackage.test_samplefile2" name="test_sample_two" time="0.001"><failure message="assert False">@pytest.mark.regression
+    def test_sample_two():
+        print("inside sample_two")
+&gt;       assert False
+E       assert False
+
+samplepackage\test_samplefile2.py:12: AssertionError</failure></testcase><testcase classname="samplepackage.test_samplefile2" name="test_sample_three" time="0.001" /><testcase classname="samplepackage.test_samplefiletwo" name="test_sample_file_two" time="0.001" /><testcase classname="samplepackage2.test_spt" name="test_spt_one" time="0.001" /></testsuite></testsuites>
